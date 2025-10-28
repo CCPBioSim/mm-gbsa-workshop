@@ -1,0 +1,11 @@
+name: ccpbiosim-mmgbsa
+channels:
+    - conda-forge
+dependencies:
+    - pip
+    - python=3.10
+    - jupyterlab
+    - parmed
+    - mdtraj
+    - openmm
+    - matplotlib

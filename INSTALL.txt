@@ -1,0 +1,9 @@
+Prerequisites:
+None
+
+Requirements:
+openmm
+parmed
+mdtraj
+numpy
+jupyter
