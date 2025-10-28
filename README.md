@@ -4,7 +4,7 @@ This workshop walks through the process of perfprming a basic MM-GBSA analysis
 of a molecular dynamics simulation of a protein-ligand complex to estimate
 the ligand binding free energy. The approach here uses *OpenMM* with a little help from *ParmEd*. 
 
-The example here uses data from a simulation performed using *OpenMM*, but could readily be adapted for use with simulations run with *Amber* or *GROMACS* (and maybe *CHARMM*).
+This example uses data from a simulation performed using *OpenMM*, but could readily be adapted for use with simulations run with *Amber* or *GROMACS* (and maybe *CHARMM*).
 
 ![Figure 1](Figure1.png)
 
