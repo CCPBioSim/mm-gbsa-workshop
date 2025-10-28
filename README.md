@@ -6,6 +6,8 @@ the ligand binding free energy. The approach here uses *OpenMM* with a little he
 
 The example here uses data from a simulation performed using *OpenMM*, but could readily be adapted for use with simulations run with *Amber* or *GROMACS* (and maybe *CHARMM*).
 
+![Figure 1](Figure1.png)
+
 ## Installation
 
 The simplest way to run the workshop on your own laptop/workstation is to clone this repository and execute the supplied `run_notebook.sh` script.
