@@ -9,7 +9,11 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN mamba install parmed mdtraj openmm matplotlib -y
+RUN conda install -y -c conda-forge \
+    conda-forge::matplotlib=3.11.1 \
+    conda-forge::mdtraj=1.11.1 \
+    conda-forge::openmm=8.6.1 \
+    conda-forge::parmed=4.3.1
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
