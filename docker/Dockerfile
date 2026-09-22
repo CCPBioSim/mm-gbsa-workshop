@@ -19,6 +19,8 @@ RUN conda install -y -c conda-forge \
 COPY --chown=1000:100 . .
 RUN rm -rf environment.yaml Figure1.png Figure1.pptx INSTALL.txt LICENSE micromamba README.md run_notebook.sh docker .git .github
 
+RUN wget https://file-store.ccpbiosim.org/tw2026/abl_ligand_prod.nc
+
 # Copy lab workspace
 #COPY --chown=1000:100 docker/default-37a8.jupyterlab-workspace /home/jovyan/.jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
 
