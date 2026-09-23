@@ -12,6 +12,7 @@ WORKDIR $HOME
 RUN conda install -y -c conda-forge \
     conda-forge::matplotlib=3.11.2 \
     conda-forge::mdtraj=1.11.1 \
+    conda-forge::netcdf4=1.7.4 \
     conda-forge::openmm=8.6.1 \
     conda-forge::parmed=4.3.1
 
